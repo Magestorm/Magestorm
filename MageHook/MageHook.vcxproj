@@ -44,14 +44,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>.\Lib;$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)\..\Build\$(Configuration)\</OutDir>
+    <OutDir>..\Build\Debug\</OutDir>
     <IncludePath>.\Include;$(IncludePath)</IncludePath>
+    <IntDir>..\Build\Debug\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>.\Lib;$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)\..\Build\$(Configuration)\</OutDir>
+    <OutDir>..\Build\Release\</OutDir>
     <IncludePath>.\Include;$(IncludePath)</IncludePath>
+    <IntDir>..\Build\Release\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
