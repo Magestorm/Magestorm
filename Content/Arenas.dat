@@ -1,0 +1,124 @@
+[arenadefs]
+numarenas=10
+numgrids=10
+default=0
+
+[arena00]
+midi=cath.mid
+enabled=1
+type=1
+name=Cathedral Revival
+short_name=CathRev
+description=A Large arena in a Medieval Cathedral.
+grid=grid00
+maxplayers=99
+timelimit=3600
+expbonus=0.10
+
+[arena01]
+midi=cath.mid
+enabled=1
+type=1
+name=Roarc Cata 2T
+short_name=Cats2T
+description=A dark, maze-like underground arena.
+grid=grid01
+maxplayers=99
+timelimit=3600
+expbonus=0.10
+
+[arena02]
+midi=catacomb.mid
+enabled=1
+type=1
+name=Roarc Catacombs
+short_name=Cats
+description=A dark, maze-like underground arena.
+grid=grid02
+maxplayers=99
+timelimit=3600
+expbonus=0.00
+
+[arena03]
+midi=keep.mid
+enabled=1
+type=1
+name=Thunder Keep
+short_name=Keep
+description=A medium sized arena set in a Medieval Keep.
+grid=grid03
+maxplayers=99
+timelimit=3600
+expbonus=0.15
+
+[arena04]
+midi=catacomb.mid
+enabled=1
+type=1
+name=Town of Sirama
+short_name=Town
+description=A large town as an arena.
+grid=grid04
+maxplayers=99
+timelimit=3600
+expbonus=0.35
+
+[arena05]
+midi=catacomb.mid
+enabled=1
+type=1
+name=Temple of Ramhotep
+short_name=Temple
+description=A large desert Temple.
+grid=grid05
+maxplayers=99
+timelimit=3600
+expbonus=0.35
+
+[arena06]
+midi=catacomb.mid
+enabled=1
+type=1
+name=Halls of the Loaru
+short_name=Halls
+description=A large underground maze.
+grid=grid06
+maxplayers=99
+timelimit=3600
+expbonus=0.50
+
+[arena07]
+midi=catacomb.mid
+enabled=1
+type=1
+name=Barracks of Folenn
+short_name=Barracks
+description=The last remaining weaponized barracks of Folenn.
+grid=grid07
+maxplayers=99
+timelimit=3600
+expbonus=0.15
+
+[arena08]
+midi=catacomb.mid
+enabled=1
+type=1
+name=Splat Park
+short_name=Park
+description=
+grid=grid08
+maxplayers=99
+timelimit=3600
+expbonus=0.15
+
+[arena09]
+midi=catacomb.mid
+enabled=1
+type=1
+name=Splat Lake
+short_name=Lake
+description=
+grid=grid09
+maxplayers=99
+timelimit=3600
+expbonus=0.15

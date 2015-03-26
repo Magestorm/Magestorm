@@ -1,0 +1,380 @@
+;=========================================================================
+; Image Definitions
+;=========================================================================
+[imagedefs]
+numimages= 33
+
+[image00]
+name=thing.pcx
+wbits= 16
+hbits= 16
+wpixels= 16
+hpixels= 16
+numviews= 1
+
+[image01]
+name=bush2.pcx
+wbits= 64 
+hbits= 32
+wpixels= 128
+hpixels= 64
+numviews= 1
+color_table= 20
+
+[image02]
+name=spruce.pcx
+wbits= 256 
+hbits= 256 
+wpixels= 256
+hpixels= 256
+numviews= 1
+color_table= 20
+
+[image03]
+name=boulder3.pcx
+wbits=64
+hbits=64
+wpixels= 128
+hpixels= 128
+numviews=1
+
+[image04]
+name=stump.pcx
+wbits=64
+hbits=64
+wpixels= 128
+hpixels= 128
+numviews=1
+
+[image05]
+name=ylaun.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+;numindeathseq= 6
+;deathseq= 1,2,3,3,4,4
+numviews= 1
+system= 1
+color_table= 1
+
+[image06]
+name=man2_c.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 4
+imageseq= 0,1,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 3
+
+[image07]
+name=man2_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 3
+
+[image08]
+name=man0_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,2,3,4,5,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 1
+mirror_animations= 0
+
+[image09]
+name=pinetree.pcx
+wbits= 256 
+hbits= 256 
+wpixels= 256
+hpixels= 256
+numviews= 1
+color_table= 20
+
+[image10]
+name=boulder2.pcx
+wbits=64
+hbits=64
+wpixels= 128
+hpixels= 128
+numviews=1
+
+[image11]
+name=bigtree2.pcx
+wbits= 128 
+hbits= 128 
+wpixels= 256
+hpixels= 256
+numviews= 1
+color_table= 20
+
+[image12]
+;name=redball2.pcx
+name=yball.pcx
+wbits= 4
+hbits= 4
+wpixels= 16
+hpixels= 16
+numviews= 1
+system= 1
+color_table= 1
+
+[image13]
+name=wmn0_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 4
+mirror_animations= 0
+
+[image14]
+name=splatted.pcx
+wbits= 128
+hbits= 32
+wpixels= 128
+hpixels= 32
+numviews= 1
+color_table= 7
+system= 1
+
+[image15]
+name=dsponge.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numviews= 1
+system=1
+color_table= 6
+
+[image16]
+name=bush.pcx
+wbits= 64 
+hbits= 32 
+wpixels= 128
+hpixels= 64
+numviews= 1
+color_table= 20
+
+[image17]
+name=man1_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 2
+mirror_animations= 0
+
+[image18]
+name=man0_c.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 4
+imageseq= 0,1,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 1
+
+[image19]
+name=wmn0_c.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 4
+imageseq= 0,1,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 4
+
+[image20]
+name=man1_c.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 4
+imageseq= 0,1,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 2
+
+[image21]
+name=balls.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numviews= 1
+system= 1
+
+[image22]
+name=sponge.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numviews= 1
+system= 1
+color_table=6
+
+[image23]
+name=yellball.pcx
+wbits= 8
+hbits= 8
+wpixels= 16
+hpixels= 16
+numindeathseq= 6
+deathseq= 1,1,2,2,3,3
+numviews= 1
+system= 1
+
+[image24]
+name=man1_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numindeathseq= 12
+deathseq= 0,0,1,1,2,2,3,3,4,4,5,5
+numviews= 1
+system= 1
+color_table= 2
+
+[image25]
+name=man0_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numindeathseq= 11
+deathseq= 0,1,2,3,4,5,5,4,3,2,1,0
+numviews= 1
+system= 1
+color_table= 1
+
+[image26]
+name=man2_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+;numinseq= 8
+;imageseq= 0,1,2,3,4,3,2,1
+;numindeathseq= 9
+;deathseq= 0,1,2,3,4,5,6,7,8
+numindeathseq= 11
+deathseq= 0,1,2,3,4,5,5,4,3,2,1,0
+numviews= 1
+system= 1
+color_table= 3
+
+[image27]
+name=yelllaun.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numindeathseq= 6
+deathseq= 1,2,3,3,4,4
+numviews= 1
+system= 1
+
+[image28]
+name=wmn0_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numindeathseq= 14
+deathseq= 0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7
+numviews= 1
+system= 1
+color_table= 4
+
+[image29]
+name=blueflag.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 4
+imageseq= 0,1,2,3
+numviews= 1
+system= 1
+
+[image30]
+name=yball_d.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numindeathseq= 4
+deathseq= 0,1,2,3
+numviews= 1
+system= 1
+color_table= 1
+
+[image31]
+name=ylaun_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numindeathseq= 4
+deathseq= 0,1,2,3
+numviews= 1
+system= 1
+color_table= 1
+
+[image32]
+name=ylaun.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+;numindeathseq= 4
+;deathseq= 0,1,2,3
+numviews= 1
+system= 1
+

@@ -1,0 +1,176 @@
+
+;World File for Catacombs  2T   
+
+;=========================================================================
+; Monster Generators 
+;=========================================================================
+[mongendefs]
+nummongens= 0
+
+
+;=========================================================================
+; Team Starting 
+;=========================================================================
+[noteam]
+startx= 14
+starty= 19
+startz= 90
+raisex= 14 
+raisey= 19 
+
+[chaos]
+startx= 30
+starty= 63
+startz= 90 
+raisex= 14 
+raisey= 19 
+
+[order]
+startx= 61 
+starty= 102
+raisex= 13  
+raisey= 17 
+
+[balance]
+startx= 90
+starty= 63
+startz= 90
+raisex= 14 
+raisey= 19 
+
+;=========================================================================
+; Light
+;=========================================================================
+[light]
+;ambient= 12
+;outdoor= 18
+;intensity= 96
+ambient=10
+outdoor=16
+intensity=75
+
+;=========================================================================
+;Earthblood Pools
+;=========================================================================
+[earthblooddefs]
+numearthblood=13
+
+[earthblood00]  
+power= 40
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood01]  
+power= 65
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood02]  
+power= 0
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood03]
+power= 40
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood04]  
+power= 40
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood05]  
+power= 0
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood06]  
+power= 0 
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood07]  
+power= 35
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood08]  
+power= 35
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood09]  
+power= 45
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood10]  
+power= 65
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood11]  
+power= 35
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+[earthblood12]  
+power= 35
+neutraltexture= 1
+balancetexture= 1
+ordertexture= 1
+chaostexture= 1
+
+;=========================================================================
+;Shrines
+;=========================================================================
+
+[shrinedefs]
+numshrines=3
+
+[shrine00]
+power= 100
+alignment=balance
+bias= 100
+
+[shrine01]
+power= 0
+alignment=order
+bias= 0
+
+[shrine02]
+power= 100
+alignment=chaos
+bias= 100
+
+[map]
+grid_id=00
+map_y_pos=0
+map_x_pos=0
+map_y_offset=27
+map_x_offset=18

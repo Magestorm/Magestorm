@@ -1,0 +1,244 @@
+[triggerdefs]
+numtriggers= 14
+
+
+; ELEVATOR EXAMPLE
+[trigger01]
+type=elevator
+texture_off=40     ; Texture when trigger is OFF
+texture_on=39      ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=40      ; Height of floor when OFF
+on_height=349      ; Height of floor when ON
+x1=32              ; Upper left corner of elevator
+y1=61
+x2=32              ; Lower right corner of elevator
+y2=61
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+on_sound=73
+off_sound=73
+
+; SWINGING DOOR EXAMPLE
+[trigger02]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=-90       ; End Angle of door in Degrees
+max_angle_rate=90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+; SWINGING DOOR EXAMPLE
+[trigger03]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=90       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+
+; SWINGING DOOR EXAMPLE
+[trigger04]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=90     ; Start angle of Door in Degrees
+end_angle=0       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+; SWINGING DOOR EXAMPLE
+[trigger05]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=90     ; Start angle of Door in Degrees
+end_angle=180       ; End Angle of door in Degrees
+max_angle_rate=90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger06]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=90     ; Start angle of Door in Degrees
+end_angle=0       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger07]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=-90       ; End Angle of door in Degrees
+max_angle_rate=90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger08]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=90       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+; SLIDING DOOR EXAMPLE
+[trigger09]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=2        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+slide_amount=60     ; Amount to slide in units
+max_rate=50         ; Rate of slide in units/second
+on_sound=73
+off_sound=73
+
+; SLIDING DOOR EXAMPLE
+[trigger10]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+start_angle=90
+slide_axis=1        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+slide_amount=60     ; Amount to slide in units
+max_rate=50         ; Rate of slide in units/second
+on_sound=73
+off_sound=73
+
+; SLIDING DOOR EXAMPLE
+[trigger11]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+start_angle=90 
+slide_axis=1        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+slide_amount=60     ; Amount to slide in units
+max_rate=50         ; Rate of slide in units/second
+on_sound=73
+off_sound=73
+
+
+
+; TELEPORTER EXAMPLE
+[trigger12] ;
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=4            ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=26               ; Locations of Teleport Destinations
+y0=82             
+x1=46
+y1=82
+x2=30
+y2=80
+x3=41
+y3=80
+on_sound= 14
+
+; TELEPORTER EXAMPLE
+[trigger13] ;
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=3            ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=25               ; Locations of Teleport Destinations
+y0=86             
+x1=28
+y1=87
+x2=34
+y2=94
+on_sound= 14
+
+; TELEPORTER EXAMPLE
+[trigger14] ;
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=3            ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=47               ; Locations of Teleport Destinations
+y0=86             
+x1=44
+y1=87
+x2=38
+y2=94
+on_sound= 14
+

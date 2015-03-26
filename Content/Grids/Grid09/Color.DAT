@@ -1,0 +1,12 @@
+
+;SplatterBall, Splat lake (grid00)
+
+[color_tables]
+16=metals.col
+17=concrete.col
+18=dirtwood.col
+19=cathed.col
+20=tanpink.col
+21=woodiron.col
+22=ivywall.col
+23=greens.col

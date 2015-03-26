@@ -1,0 +1,96 @@
+
+
+;SplatterBall SplatPark
+
+[triggerdefs]
+numtriggers= 4
+
+
+; TELEPORTER EXAMPLE
+[trigger01]
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=5            ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=34               ; Locations of Teleport Destinations
+y0=4             
+x1=51
+y1=32
+x2=2
+y2=33
+x3=18
+y3=2
+x4=37
+y4=22
+on_sound= 19
+
+[trigger02];Valahalla
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=1            ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=103              ; Locations of Teleport Destinations
+y0=62            
+;x1=
+;y1=
+;x2=
+;y2=
+;x3=43
+;y3=49
+;x4=71
+;y4=41
+on_sound= 14
+
+[trigger03];Valahalla
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=3           ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=27              ; Locations of Teleport Destinations
+y0=4           
+x1=4
+y1=27
+x2=27
+y2=27
+;x3=43
+;y3=49
+;x4=71
+;y4=41
+on_sound= 14
+
+[trigger04];Valahalla
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=3            ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=42             ; Locations of Teleport Destinations
+y0=31           
+x1=31
+y1=42
+x2=42
+y2=42
+;x3=43
+;y3=49
+;x4=71
+;y4=41
+on_sound= 14

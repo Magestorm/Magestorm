@@ -1,0 +1,150 @@
+;
+;				Cathedral Revival 
+;					  by Kross               
+
+;=========================================================================
+; Monster Generators
+;=========================================================================
+[mongendefs]
+nummongens=0
+
+;=========================================================================
+; Team Starting Area
+;=========================================================================
+[noteam]
+startx=48
+starty=112
+raisex=48
+raisey=112
+
+[chaos]
+startx=12
+starty=11
+starta=0
+raisex=47
+raisey=108
+raisea=90
+
+[order]
+startx=65
+starty=27
+starta=0
+raisex=48
+raisey=115
+raisea=90
+
+[balance]
+startx=18
+starty=77
+starta=180
+raisex=48
+raisey=112
+raisea=90
+
+;=========================================================================
+; Light
+;=========================================================================
+[light]
+ambient=12
+outdoor=28
+intensity=96
+
+;=========================================================================
+; Earthblood Pools
+;=========================================================================
+[earthblooddefs]
+numearthblood=8
+
+[earthblood00] ; Near Red Shrine
+power=70
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood01] ; Near Green Shrine
+power=65
+power_original=70
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood02] ; In Main Hall
+power=57
+power_original=70
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood03] ; Near Blue Shrine
+power=65
+power_original=70
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood04] ; In Atrium Area
+power=40
+power_original=45
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+
+[earthblood05] ; Sewer
+power=20
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood06] ; Near Green 2
+power=30
+power_original=45
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood07] ; Near Red 2
+power=35
+power_original=45
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+;=========================================================================
+; Shrines
+;=========================================================================
+[shrinedefs]
+numshrines=3
+
+[shrine00]
+power=100
+alignment=chaos
+bias=100
+
+[shrine01]
+power=100
+alignment=balance
+bias=100
+
+[shrine02]
+power=100
+alignment=order
+bias=100
+
+;=========================================================================
+; Map Data
+;=========================================================================
+[map]
+grid_id=0
+map_y_pos=0
+map_x_pos=0
+map_y_offset=0
+map_x_offset=0

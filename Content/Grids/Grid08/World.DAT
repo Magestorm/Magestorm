@@ -1,0 +1,143 @@
+
+
+
+
+;=========================================================================
+; Light
+;=========================================================================
+[light]
+ambient= 10
+outdoor= 32
+intensity= 96
+
+;========================================================================
+;Safe Zone Teleporters
+;========================================================================
+;[safezonedefs]
+;numsafezones=1
+
+;[safezone01]
+;trigger=1
+
+;=========================================================================
+; Team Starting Area
+;=========================================================================
+[noteam]
+startx=20
+starty=20
+raisex=20
+raisey=20
+
+[chaos]
+startx=44
+starty=57
+starta=0
+raisex=20
+raisey=20
+raisea=90
+
+[order]
+startx=8
+starty=51
+starta=90
+raisex=20
+raisey=20
+raisea=90
+
+[balance]
+startx=56
+starty=3
+starta=180
+raisex=20
+raisey=20
+raisea=90
+
+
+;=========================================================================
+; Earthblood Pools
+;=========================================================================
+[earthblooddefs]
+numearthblood=7
+
+[earthblood00] ; Balance Fpool
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood01] ; Balance Hpool
+power=60
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood02] ; Order Fpool
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood03] ; Order Hpool
+power=60
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood04] ; Choas Fpool
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+
+[earthblood05] ; Choas Hpool
+power=60
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood06] ; Pool Near Valhalla
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+
+;=========================================================================
+; Shrines
+;=========================================================================
+[shrinedefs]
+numshrines=3
+
+[shrine00]
+power=100
+alignment=chaos
+bias=100
+
+[shrine01]
+power=100
+alignment=balance
+bias=100
+
+[shrine02]
+power=100
+alignment=order
+bias=100
+
+;=========================================================================
+; Map Data
+;=========================================================================
+[map]
+grid_id=0
+map_y_pos=0
+map_x_pos=0
+map_y_offset=1
+map_x_offset=1
+

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionString" xml:space="preserve">
+    <value>Database={0}; Data Source={1}; Port={2}; User Id={3}; Password={4};</value>
+  </data>
+  <data name="Error_Connecting" xml:space="preserve">
+    <value>Error connecting to the MySQL server. You should restart the game and MySQL server.</value>
+  </data>
+  <data name="NonQuery_Delete_Character_Delete" xml:space="preserve">
+    <value>DELETE FROM `characters` WHERE accountid = @accountid AND name = @name</value>
+  </data>
+  <data name="NonQuery_Delete_Character_SetOffline" xml:space="preserve">
+    <value>DELETE FROM `online_characters` WHERE charid = @charid</value>
+  </data>
+  <data name="NonQuery_Delete_OnlineAccounts_SetAllOffline" xml:space="preserve">
+    <value>DELETE FROM  `online_accounts`</value>
+  </data>
+  <data name="NonQuery_Delete_OnlineAccounts_SetOffline" xml:space="preserve">
+    <value>DELETE FROM `online_accounts` WHERE accountid = @accountid</value>
+  </data>
+  <data name="NonQuery_Delete_OnlineCharacters_SetAllOffline" xml:space="preserve">
+    <value>DELETE FROM `online_characters`</value>
+  </data>
+  <data name="NonQuery_Delete_StatisticsOverall_DeleteByCharId" xml:space="preserve">
+    <value>DELETE FROM `character_statistics` WHERE charid = @charid</value>
+  </data>
+  <data name="NonQuery_Delete_StatisticsWeekly_DeleteByCharId" xml:space="preserve">
+    <value>DELETE FROM `character_statistics_weekly` WHERE charid = @charid</value>
+  </data>
+  <data name="NonQuery_InsertUpdate_OnlineCharacters_SetOnline" xml:space="preserve">
+    <value>INSERT INTO `online_characters` (charid, tableid, arenaid, arenashortname) VALUES (@charid, @tableid, @arenaid, @arenashortname) ON DUPLICATE KEY UPDATE tableid=@tableid, arenaid=@arenaid, arenashortname=@arenashortname</value>
+  </data>
+  <data name="NonQuery_InsertUpdate_StatisticsOverall_Update" xml:space="preserve">
+    <value>INSERT INTO `character_statistics` (charid, hidden, kills, deaths, raises, damagedone, damagetaken, healingdone, healingtaken, wins, losses) VALUES (@charid, @hidden, @kills, @deaths, @raises, @damagedone, @damagetaken, @healingdone, @healingtaken, @wins, @losses) ON DUPLICATE KEY UPDATE hidden=@hidden, kills=kills+@kills, deaths=deaths+@deaths, raises=raises+@raises, damagedone=damagedone+@damagedone, damagetaken=damagetaken+@damagetaken, healingdone=healingdone+@healingdone, healingtaken=healingtaken+@healingtaken, wins=wins+@wins, losses=losses+@losses</value>
+  </data>
+  <data name="NonQuery_InsertUpdate_StatisticsWeekly_Update" xml:space="preserve">
+    <value>INSERT INTO `character_statistics_weekly` (charid, date, hidden, kills, deaths, raises, damagedone, damagetaken, healingdone, healingtaken, wins, losses) VALUES (@charid, @date, @hidden, @kills, @deaths, @raises, @damagedone, @damagetaken, @healingdone, @healingtaken, @wins, @losses) ON DUPLICATE KEY UPDATE hidden=@hidden, kills=kills+@kills, deaths=deaths+@deaths, raises=raises+@raises, damagedone=@damagedone+@damagedone, damagetaken=damagetaken+@damagetaken, healingdone=healingdone+@healingdone, healingtaken=healingtaken+@healingtaken, wins=wins+@wins, losses=losses+@losses</value>
+  </data>
+  <data name="NonQuery_Insert_Character_SaveNew" xml:space="preserve">
+    <value>INSERT INTO `characters` (accountid, slot, name, agility, constitution, memory, reasoning, discipline, empathy, intuition, presence, quickness, strength, spent_stat, bonus_stat, bonus_spent, list_1, list_2, list_3, list_4, list_5, list_6, list_7, list_8, list_9, list_10, list_level_1, list_level_2, list_level_3, list_level_4, list_level_5, list_level_6, list_level_7, list_level_8, list_level_9, list_level_10, class, level, spell_picks, model, experience, spell_key_1, spell_key_2, spell_key_3, spell_key_4, spell_key_5, spell_key_6, spell_key_7, spell_key_8, spell_key_9, spell_key_10, spell_key_11, spell_key_12, oplevel, flags) VALUES (@accountid, @slot, @name, @agility, @constitution, @memory, @reasoning, @discipline, @empathy, @intuition, @presence, @quickness, @strength, @spent_stat, @bonus_stat, @bonus_spent, @list_1, @list_2, @list_3, @list_4, @list_5, @list_6, @list_7, @list_8, @list_9, @list_10, @list_level_1, @list_level_2, @list_level_3, @list_level_4, @list_level_5, @list_level_6, @list_level_7, @list_level_8, @list_level_9, @list_level_10, @class, @level, @spell_picks, @model, @experience, @spell_key_1, @spell_key_2, @spell_key_3, @spell_key_4, @spell_key_5, @spell_key_6, @spell_key_7, @spell_key_8, @spell_key_9, @spell_key_10, @spell_key_11, @spell_key_12, @oplevel, @flags)</value>
+  </data>
+  <data name="NonQuery_Insert_Matches_New" xml:space="preserve">
+    <value>INSERT INTO `matches` (arenaid, tableid, creation_time, player_count, highest_player_count, max_players, current_state, end_state, short_name, long_name, founder_charid, duration, level_range, mode, rules) VALUES (@arenaid, @tableid, @creation_time, @player_count, @highest_player_count, @max_players, @current_state, @end_state, @short_name, @long_name, @founder_charid, @duration, @level_range, @mode, @rules)</value>
+  </data>
+  <data name="NonQuery_Insert_OnlineAccounts_SetOnline" xml:space="preserve">
+    <value>INSERT INTO `online_accounts` (accountid) VALUES (@accountid)</value>
+  </data>
+  <data name="NonQuery_Update_Character_SaveExisting" xml:space="preserve">
+    <value>UPDATE `characters` SET name=@name, agility=@agility, constitution=@constitution, memory=@memory, reasoning=@reasoning, discipline=@discipline, empathy=@empathy, intuition=@intuition, presence=@presence, quickness=@quickness, strength=@strength, spent_stat=@spent_stat, bonus_stat=@bonus_stat, bonus_spent=@bonus_spent, list_1=@list_1, list_2=@list_2, list_3=@list_3, list_4=@list_4, list_5=@list_5, list_6=@list_6, list_7=@list_7, list_8=@list_8, list_9=@list_9, list_10=@list_10, list_level_1=@list_level_1, list_level_2=@list_level_2, list_level_3=@list_level_3, list_level_4=@list_level_4, list_level_5=@list_level_5, list_level_6=@list_level_6, list_level_7=@list_level_7, list_level_8=@list_level_8, list_level_9=@list_level_9, list_level_10=@list_level_10, experience=@experience, class=@class, level=@level, spell_picks=@spell_picks, model=@model, spell_key_1=@spell_key_1, spell_key_2=@spell_key_2, spell_key_3=@spell_key_3, spell_key_4=@spell_key_4, spell_key_5=@spell_key_5, spell_key_6=@spell_key_6, spell_key_7=@spell_key_7, spell_key_8=@spell_key_8, spell_key_9=@spell_key_9, spell_key_10=@spell_key_10, spell_key_11=@spell_key_11, spell_key_12=@spell_key_12, oplevel=@oplevel, flags=@flags WHERE accountid=@accountid AND slot=@slot</value>
+  </data>
+  <data name="NonQuery_Update_ServerSettings_SetExpMultiplier" xml:space="preserve">
+    <value>UPDATE `server_settings` SET exp_multiplier = @exp_multiplier</value>
+  </data>
+  <data name="Query_Select_Account_IsSerialBanned" xml:space="preserve">
+    <value>SELECT `serial` FROM `banned_serials` WHERE serial = @serial LIMIT 1</value>
+  </data>
+  <data name="Query_Select_Character_FindByAccountIdAndSlot" xml:space="preserve">
+    <value>SELECT * FROM `characters` WHERE accountid = @accountid AND slot = @slot LIMIT 1</value>
+  </data>
+  <data name="Query_Select_Character_FindByName" xml:space="preserve">
+    <value>SELECT * FROM `characters` WHERE name = @name LIMIT 1</value>
+  </data>
+  <data name="Query_Select_Character_FindByNameAndAccountId" xml:space="preserve">
+    <value>SELECT * FROM `characters` WHERE name = @name AND accountid = @accountid LIMIT 1</value>
+  </data>
+  <data name="Query_Select_Study_GetHighScoreList" xml:space="preserve">
+    <value>SELECT * FROM `characters` WHERE class = @class AND oplevel = 0 ORDER BY `experience` DESC LIMIT 10</value>
+  </data>
+</root>

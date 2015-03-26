@@ -1,0 +1,304 @@
+
+
+;SplatterBall Grid00 Splat Lake
+
+[triggerdefs]
+numtriggers=16
+
+; ELEVATOR EXAMPLE
+[trigger01]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=0          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=164       ; Height of floor when OFF
+on_height=364      ; Height of floor when ON
+x1=0              ; Upper left corner of elevator
+y1=0
+x2=0              ; Lower right corner of elevator
+y2=0
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+; SWINGING DOOR EXAMPLE
+[trigger02]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=0          ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=90       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+
+; SLIDING DOOR EXAMPLE
+[trigger03]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=0           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=1        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+slide_amount=50     ; Amount to slide in units
+max_rate=50         ; Rate of slide in units/second
+
+; SLIDING UP DOOR EXAMPLE
+[trigger04]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=0           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=3        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+slide_amount=50     ; Amount to slide in units
+max_rate=50         ; Rate of slide in units/second
+
+; TELEPORTER EXAMPLE
+[trigger05]
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=3           ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=37               ; Locations of Teleport Destinations
+y0=21             
+x1=20
+y1=49
+x2=66
+y2=51
+
+on_sound= 19
+
+; ELEVATOR EXAMPLE
+[trigger06]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=84       ; Height of floor when OFF
+on_height=321      ; Height of floor when ON
+x1=21              ; Upper left corner of elevator
+y1=42
+x2=22              ; Lower right corner of elevator
+y2=44
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger07]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=-30       ; Height of floor when OFF
+on_height=82      ; Height of floor when ON
+x1=76              ; Upper left corner of elevator
+y1=51
+x2=77              ; Lower right corner of elevator
+y2=52
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger08]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=82        ; Height of floor when OFF
+on_height=211     ; Height of floor when ON
+x1=75              ; Upper left corner of elevator
+y1=46
+x2=75              ; Lower right corner of elevator
+y2=46
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger09]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=84        ; Height of floor when OFF
+on_height=211     ; Height of floor when ON
+x1=23              ; Upper left corner of elevator
+y1=22
+x2=23              ; Lower right corner of elevator
+y2=22
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger10]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=-28       ; Height of floor when OFF
+on_height=82     ; Height of floor when ON
+x1=26              ; Upper left corner of elevator
+y1=24
+x2=26              ; Lower right corner of elevator
+y2=24
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger11]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=82        ; Height of floor when OFF
+on_height=274    ; Height of floor when ON
+x1=76              ; Upper left corner of elevator
+y1=33
+x2=76              ; Lower right corner of elevator
+y2=33
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger12]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=82        ; Height of floor when OFF
+on_height=274    ; Height of floor when ON
+x1=76              ; Upper left corner of elevator
+y1=38
+x2=76              ; Lower right corner of elevator
+y2=38
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger13]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=164       ; Height of floor when OFF
+on_height=327    ; Height of floor when ON
+x1=20              ; Upper left corner of elevator
+y1=34
+x2=20              ; Lower right corner of elevator
+y2=34
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+[trigger14]
+type=elevator
+texture_off=20     ; Texture when trigger is OFF
+texture_on=21     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=164       ; Height of floor when OFF
+on_height=327    ; Height of floor when ON
+x1=20              ; Upper left corner of elevator
+y1=39
+x2=20              ; Lower right corner of elevator
+y2=39
+speed=100          ; Speed of elevator in Height units per second
+move_floor= 1      ;
+move_ceiling=0     ; Move ceiling with floor?
+move_rooftop=0     ; Move rooftop with floor?
+
+; TELEPORTER EXAMPLE
+[trigger15]
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=3           ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=50               ; Locations of Teleport Destinations
+y0=22            
+x1=52
+y1=47
+x2=49
+y2=33
+
+on_sound= 14
+valhalla=true
+
+
+; TELEPORTER EXAMPLE
+[trigger16]
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=0       ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=4           ; Random Teleporter -> Set to number of destinations
+team=0             ; Team Teleporter -> Destinations correspond to teams
+x0=60               ; Locations of Teleport Destinations
+y0=45            
+x1=57
+y1=23
+x2=47
+y2=23
+x3=46
+y3=48
+
+
+on_sound= 14
+valhalla=true

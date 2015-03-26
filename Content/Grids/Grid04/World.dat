@@ -1,0 +1,146 @@
+;
+;				Town of Sirama 
+;
+
+;=========================================================================
+; Monster Generators
+;=========================================================================
+[mongendefs]
+nummongens=0
+
+;=========================================================================
+; Team Starting Areas
+;=========================================================================
+[noteam]
+startx=115
+starty=7
+raisex=115
+raisey=7
+
+[chaos]
+startx=21
+starty=65
+raisex=114
+raisey=7
+
+[order]
+startx=79
+starty=87
+raisex=116
+raisey=7
+
+[balance]
+startx=61
+starty=22
+raisex=117
+raisey=7
+
+;=========================================================================
+; Light
+;=========================================================================
+[light]
+ambient=12
+outdoor=18
+intensity=96
+
+;=========================================================================
+; Earthblood Pools
+;=========================================================================
+[earthblooddefs]
+numearthblood=9
+
+[earthblood00] ; Order Pool #1 (West)
+power=45
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+[earthblood01] ; Order Pool #2 (East)
+power=45
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+[earthblood02] ; Balance Pool #1 (West)
+power=45
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+[earthblood03] ; Balance Pool #2 (East)
+power=45
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+[earthblood04] ; Church Pool
+power=60
+power_original=80
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+[earthblood05] ; Secret Room Pool
+power=60
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+[earthblood06] ; Town Square Pool
+power=60
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+chaostexture=1
+
+[earthblood07] ; Chaos Pool #1 (North)
+power=45
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+[earthblood08] ; Chaos Pool #2 (South)
+power=45
+neutraltexture=1
+balancetexture=1
+ordertexture=1
+chaostexture=1
+
+;=========================================================================
+;Shrines
+;=========================================================================
+[shrinedefs]
+numshrines=3
+
+[shrine00]
+power=100
+alignment=balance
+bias=100
+
+[shrine01]
+power=100
+alignment=order
+bias=100
+
+[shrine02]
+power=100
+alignment=chaos
+bias=100
+
+;=========================================================================
+; Map Data
+;=========================================================================
+[map]
+grid_id=4
+map_y_pos=0
+map_x_pos=0
+map_y_offset=0
+map_x_offset=0

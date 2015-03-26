@@ -1,0 +1,168 @@
+;
+;				Barracks of Folenn 
+;					 by Kross
+
+;=========================================================================
+; Monster Generators
+;=========================================================================
+[mongendefs]
+nummongens=0
+
+;=========================================================================
+; Team Starting Areas
+;=========================================================================
+[noteam]
+startx=36
+starty=97
+raisex=36
+raisey=97
+
+[chaos]
+startx=67
+starty=89
+starta=-90
+raisex=36
+raisey=97
+
+[order]
+startx=36
+starty=59
+starta=180
+raisex=36
+raisey=97
+
+[balance]
+startx=5
+starty=89
+starta=90
+raisex=36
+raisey=97
+
+;=========================================================================
+; Light
+;=========================================================================
+[light]
+ambient=12
+outdoor=28
+intensity=96
+
+;=========================================================================
+; Earthblood Pools
+;=========================================================================
+[earthblooddefs]
+numearthblood=12
+
+[earthblood00] ; Center Pool
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood01] ; Blue Barrack Pool
+power=30
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood02] ; Blue Home Pool
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood03] ; Green Home Pool
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood04] ; Green Side Pool
+power=30
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood05] ; Green Barrack Pool
+power=20
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood06] ; Red Home Pool
+power=40
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood07] ; Red Side Pool
+power=30
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood08] ; Red Barrack Pool
+power=20
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood09] ; Green Back Pool
+power=20
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood10] ; Blue Back Pool
+power=20
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+[earthblood11]  ; Red Back Pool
+power=20
+neutraltexture=1
+ordertexture=1
+chaostexture=1
+balancetexture=1
+
+;=========================================================================
+; Shrines
+;=========================================================================
+[shrinedefs]
+numshrines=3
+
+[shrine00]
+power=100
+alignment=chaos
+bias=100
+
+[shrine01]
+power=100
+alignment=balance
+bias=100
+
+[shrine02]
+power=100
+alignment=order
+bias=100
+
+;=========================================================================
+; Map Data
+;=========================================================================
+[map]
+grid_id=00
+map_y_pos=0
+map_x_pos=0
+map_y_offset=0
+map_x_offset=0

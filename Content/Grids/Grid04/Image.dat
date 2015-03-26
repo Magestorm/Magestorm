@@ -1,0 +1,1788 @@
+;=========================================================================
+; Images
+;=========================================================================
+[imagedefs]
+numimages= 156
+
+[image00]
+name=thing.pcx
+wbits= 16
+hbits= 16
+wpixels= 16
+hpixels= 16
+numviews= 1
+system= 1
+
+[image01]
+name=blktorch.pcx
+wbits= 16 
+hbits= 32 
+wpixels= 32
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image02]
+name=fireball.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+
+[image03]
+name=swirl_r.pcx   ;green version of swirl rune
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 3   ;balance palette (green)
+
+[image04]
+name=gran_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+;numindeathseq= 8
+;deathseq= 32,32,33,33,34,34,35,35
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 5
+
+[image05]
+name=shock.pcx
+wbits= 8
+hbits= 8
+wpixels= 32
+hpixels= 32
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image06]
+name=frey_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numindeathseq= 30
+deathseq= 0,1,2,3,4,5,6,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+numviews= 1
+system= 1
+color_table= 13
+
+[image07]
+name=sparkle.pcx      ; Large sparkle cluster
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image08]
+name=flair1.pcx      ; Small 4 point ringed lensflair
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numinseq= 3
+imageseq= 0,1,2
+numviews= 1
+system= 1
+
+[image09]
+name=flair1.pcx     ; Medium 4 point ringed lensflair
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 3
+imageseq= 0,1,2
+numviews= 1
+system= 1
+
+[image10]
+name=mel_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 6
+
+[image11]
+name=flmpuff.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numindeathseq= 9
+deathseq= 18,19,20,21,22,23,24,25,26
+numviews= 1
+system= 1
+
+[image12]
+name=swirl.pcx
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image13]
+name=flair2.pcx      ; Small 4 point lensflair
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numinseq= 3
+imageseq= 0,1,2
+numviews= 1
+system= 1
+
+[image14]
+name=flair2.pcx     ; Medium 4 point lensflair
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 3
+imageseq= 0,1,2
+numviews= 1
+system= 1
+
+[image15]
+name=shkblast.pcx   ;small sparkly energy splash
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numindeathseq= 9
+deathseq= 0,2,4,6,8,10,12,13,14
+numviews= 1
+system= 1
+
+[image16]
+name=shkblast.pcx   ;large sparkly energy splash
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numindeathseq= 9
+deathseq= 0,2,4,6,8,10,12,13,14
+numviews= 1
+system= 1
+
+[image17]
+name=flairfd.pcx      ; flair fade out
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numindeathseq= 6
+deathseq= 0,1,2,3,4,5,6
+numviews= 1
+system= 1
+
+[image18]
+name=wnddeath.pcx
+wbits= 64
+hbits= 128
+wpixels= 64
+hpixels= 128
+numindeathseq= 7
+deathseq= 0,1,2,3,2,3,4
+numviews= 1
+system= 1
+
+[image19]
+name=flmarw.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 4
+imageseq= 0,1,2,3
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+
+[image20]
+name=flmpuff.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numindeathseq= 6
+deathseq= 18,20,22,24,25,26
+numviews= 1
+system= 1
+
+[image21]
+name=mel_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numindeathseq= 30
+deathseq= 0,1,2,3,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+numviews= 1
+system= 1
+color_table= 6
+
+[image22]
+name=flmdrip.pcx
+wbits= 16 
+hbits= 16 
+wpixels= 32
+hpixels= 32
+numinseq= 4
+imageseq= 0,1,2,3
+numviews= 1
+system= 1
+
+[image23]
+name=flmpuff.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 16
+imageseq= 0,1,2,3,4,5,6,7,8,10,12,14,12,10,6,2
+numviews= 1
+system= 1
+
+[image24]
+name=coldball.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image25]
+name=shllblst.pcx
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numindeathseq= 12
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image26]
+name=flmdrip.pcx
+wbits= 16 
+hbits= 16 
+wpixels= 32
+hpixels= 32
+numinseq= 14
+imageseq= 0,1,0,1,0,1,0,1,2,3,2,3,2,3
+numviews= 1
+system= 1
+
+[image27]
+name=potfire.pcx
+wbits= 16
+hbits= 32
+wpixels= 32
+hpixels= 64
+numindeathseq= 21
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+numviews= 1
+system= 1
+
+[image28]
+name=meteor.pcx     ;large flaming chunk
+wbits= 16
+hbits= 32
+wpixels= 32
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image29]
+name=voidball.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image30]
+name=shllblst.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numindeathseq= 6
+deathseq= 0,2,4,6,8,10
+numviews= 1
+system= 1
+
+[image31]
+name=icebolt.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numinseq= 36
+numviews= 1
+imageseq= 0,2,5,1,3,4,1,2,5,3,4,1,2,2,3,5,4,3,2,1,0,3,0,1,4,3,2,5,1,0,2,3,1,2,5,4
+system= 1
+color_table= 8
+
+[image32]
+name=splash.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numindeathseq= 6
+deathseq= 0,2,4,6,8,9
+numviews= 1
+system= 1
+
+[image33]
+name=icechunk.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 8
+
+[image34]
+name=icemelt.pcx
+wbits= 8
+hbits= 8
+wpixels= 32
+hpixels= 32
+numindeathseq= 6
+deathseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+color_table= 8
+
+[image35]
+name=twirl.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numinseq= 4
+imageseq= 0,1,2,3
+numviews= 1
+system= 1
+
+[image36]
+name=gran_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numindeathseq= 30
+deathseq= 0,1,2,3,4,5,6,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+numviews= 1
+system= 1
+color_table= 5
+
+[image37]
+name=plasball.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numinseq= 36
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11,0,1,2,3,4,5,6,7,8,9,10,11,0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image38]
+name=medcicle.pcx
+wbits= 16
+hbits= 32
+wpixels= 32
+hpixels= 64
+numinseq= 1
+numviews= 1
+system= 1
+
+[image39]
+name=mel_c.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 6
+
+[image40]
+name=gran_c.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 5
+
+[image41]
+name=icecalt.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 3
+imageseq= 0,1,2
+numviews= 1
+system= 1
+
+[image42]
+name=poof.pcx   ;small explosion death
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numindeathseq= 12
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table=15
+
+[image43]
+name=swirl_r.pcx   ;blue version of swirl rune
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 2   ;order palette (blue)
+
+[image44]
+name=fract_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image45]
+name=cloud.pcx
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 5
+imageseq= 0,1,2,3,4
+numviews= 1
+system= 1
+
+[image46]
+name=just_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 7
+
+
+[image47]
+name=just_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numindeathseq= 30
+deathseq= 0,1,2,3,4,5,6,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+numviews= 1
+system= 1
+color_table= 7
+
+
+[image48]
+name=Eshield.pcx     ; Elemental shield overlay
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image49]
+name=protect.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image50]
+name=cldshl_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 14
+
+[image51]
+name=just_c.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 7
+
+
+[image52]
+name=may_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image53]
+name=may_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numindeathseq= 30
+deathseq= 0,1,2,3,4,5,6,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+numviews= 1
+system= 1
+
+[image54]
+name=may_c.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image55]
+name=mace.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image56]
+name=twirl.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numindeathseq= 4
+deathseq= 0,1,2,3
+numviews= 1
+system= 1
+
+[image57]
+name=macefade.pcx
+wbits= 32
+hbits= 16
+wpixels= 64
+hpixels= 32
+numindeathseq= 6
+deathseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image58]
+name=bleed_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image59]
+name=death_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numindeathseq= 8
+deathseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image60]
+name=ming_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image61]
+name=ming_d.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numindeathseq= 30
+deathseq= 0,1,2,3,4,5,6,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+numviews= 1
+system= 1
+
+[image62]
+name=ming_c.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image63]
+name=manabolt.pcx          ; narrow scintillating beam
+wbits= 8
+hbits= 8
+wpixels= 32
+hpixels= 32
+numinseq= 8
+imageseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image64]
+name=manabolt.pcx         ; wide scintillating beam
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numinseq= 8
+imageseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image65]
+name=manaball.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 8
+imageseq= 7,6,5,4,3,2,1,0
+numviews= 1
+system= 1
+
+[image66]
+name=tuft1.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numviews= 1
+system= 1
+
+[image67]
+name=tuft2.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numviews= 1
+system= 1
+
+[image68]
+name=deadmeat.pcx
+wbits= 128
+hbits= 128
+wpixels= 128
+hpixels= 128
+numviews= 1
+system= 1
+
+[image69]
+name=voidbolt.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numinseq= 8
+imageseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image70]
+name=lbolt.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image71]
+name=htshl_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 14
+
+[image72]
+name=cucross2.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image73]
+name=agcross2.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image74]
+name=agcross3.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image75]
+name=aucross3.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image76]
+name=auwings.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 24
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11,12,11,10,9,8,7,6,5,4,3,2,1
+numviews= 1
+system= 1
+
+[image77]
+name=wdcross2.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image78]
+name=cucross3.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image79]
+name=htarm_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 14
+
+[image80]
+name=ltarm_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 14
+
+[image81]
+name=ltshl_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 14
+
+[image82]
+name=cldarm_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 14
+
+[image83]
+name=aucross2.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image84]
+name=sparkle.pcx      ; Small sparkle cluster
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image85]
+name=blktorch.pcx
+wbits= 16
+hbits= 32 
+wpixels= 32
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image86]
+name=psiblast.pcx
+wbits= 32
+hbits= 32 
+wpixels= 64
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5,6
+numviews= 1
+system= 1
+
+[image87]
+name=mel_f.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 1
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+color_table= 6
+
+[image88]
+name=may_f.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 1
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+
+[image89]
+name=just_f.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 1
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+color_table= 7
+
+
+[image90]
+name=ming_f.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 1
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+
+[image91]
+name=gand_f.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 1
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+color_table= 5
+
+[image92]
+name=psishock.pcx
+wbits= 32
+hbits= 16 
+wpixels= 64
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+overlay_glow=32
+
+[image93]
+name=tree.pcx
+wbits= 128
+hbits= 128
+wpixels= 256
+hpixels= 256
+numviews= 1
+system= 1
+
+[image94]
+name=lantern.pcx
+wbits= 16
+hbits= 32 
+wpixels= 32
+hpixels= 64
+numinseq= 7
+imageseq= 0,1,2,3,4,5,6
+numviews= 1
+system= 1
+
+[image95]
+name=potfire.pcx
+wbits= 16
+hbits= 32
+wpixels= 32
+hpixels= 64
+numinseq= 21
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+numviews= 1
+system= 1
+
+[image96]
+name=shrine.pcx
+wbits= 32
+hbits= 64
+wpixels= 64
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image97]
+name=leap_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 23
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11,10,9,8,7,6,5,4,3,2,1,0
+numviews= 1
+system= 1
+color_table= 14
+
+[image98]
+name=cloak_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 14
+
+[image99]
+name=targ_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image100]
+name=urn0.pcx
+wbits= 32
+hbits= 64
+wpixels= 64
+hpixels= 128
+numviews= 1
+color_table= 9
+system= 1
+
+[image101]
+name=urn1.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numviews= 1
+system= 1
+
+[image102]
+name=urn2.pcx
+wbits= 32
+hbits= 64
+wpixels= 64
+hpixels= 128
+numviews= 1
+color_table= 9
+system= 1
+ 
+[image103]
+name=barrel.pcx
+wbits= 32
+hbits= 64
+wpixels= 64
+hpixels= 128
+numviews= 1
+color_table= 21
+system= 1
+
+[image104]
+name=barrel2.pcx
+wbits= 32
+hbits= 64
+wpixels= 64
+hpixels= 128
+numviews= 1
+color_table= 21
+system= 1
+
+[image105]
+name=candle0.pcx
+wbits= 8
+hbits= 16 
+wpixels= 16
+hpixels= 32
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 1
+color_table= 21
+system= 1
+
+[image106]
+name=brazier2.pcx
+wbits= 32
+hbits= 64
+wpixels= 64
+hpixels= 128
+numinseq=6
+imageseq=0,1,2,3,4,5
+numviews= 1
+color_table= 21
+system= 1
+
+[image107]
+name=lantern2.pcx
+wbits= 16
+hbits= 32 
+wpixels= 64
+hpixels= 128
+numinseq= 7
+imageseq= 0,1,2,3,4,5,6
+numviews= 1
+color_table= 21
+system= 1
+
+[image108]
+name=fireplac.pcx
+wbits= 32
+hbits= 32 
+wpixels= 64
+hpixels= 64 
+numinseq= 10
+imageseq= 0,1,2,3,4,5,6,7,8,9
+numviews= 1
+color_table= 20
+system= 1
+
+[image109]
+name=coltmpl0.pcx
+wbits= 64
+hbits= 256
+wpixels= 64
+hpixels= 256
+numviews= 1
+color_table= 12
+system= 1
+
+[image110]
+name=tree0.pcx
+wbits= 128
+hbits= 128
+wpixels= 128
+hpixels= 128
+numviews= 1
+color_table= 12
+system= 1
+
+[image111]
+name=tree1.pcx
+wbits= 128
+hbits= 256
+wpixels= 128
+hpixels= 256
+numviews= 1
+color_table= 12
+system= 1
+
+[image112]
+name=elocute.pcx     ; Elemental shield overlay
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image113]
+name=frey_w.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 13
+
+[image114]
+name=frey_f.pcx
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 1
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+color_table= 13
+
+[image115]
+name=frey_c.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,3,2,1
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+color_table= 13
+
+[image116]
+name=bsktorch.pcx
+wbits= 16 
+hbits= 32 
+wpixels= 32
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image117]
+name=hesit_s.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numviews= 1
+system= 1
+
+[image118]
+name=unpow_s.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numviews= 1
+system= 1
+
+[image119]
+name=explod_s.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numviews= 1
+system= 1
+
+[image120]
+name=bleed_s.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numviews= 1
+system= 1
+
+[image121]
+name=expel_s.pcx
+wbits= 16
+hbits= 16
+wpixels= 32
+hpixels= 32
+numviews= 1
+system= 1
+
+[image122]
+name=strtfire.pcx           ;ground burning start
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numviews= 1
+numindeathseq= 32
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,20,16,12,8,4,2,1,0
+system= 1
+
+[image123]
+name=poof.pcx            ;Giant explosion death
+wbits= 128
+hbits= 128
+wpixels= 128
+hpixels= 128
+numindeathseq= 12
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 15
+
+[image124]
+name=smkpuff.pcx            ;small smoke puff sequence
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,2,4,6,8,10,12,14,16,18,20,22
+numviews= 1
+system= 1
+
+[image125]
+name=smkpuff.pcx            ;large smoke puff
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numindeathseq= 24
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+numviews= 1
+system= 1
+
+[image126]
+name=poof.pcx   ;small explosion sequence
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table=15
+
+[image127]
+name=smkpuff.pcx            ;small smoke puff death
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numindeathseq= 12
+deathseq= 0,2,4,6,8,10,12,14,16,18,20,22
+numviews= 1
+system= 1
+
+[image128]
+name=manaexpl.pcx      ; Smaller mana blast
+wbits= 64
+hbits= 64
+wpixels= 128
+hpixels= 128
+numindeathseq= 12
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image129]
+name=manaexpl.pcx   ; big mana blast
+wbits= 128
+hbits= 128
+wpixels= 128
+hpixels= 128
+numindeathseq= 12
+deathseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image130]
+name=thing.pcx
+wbits= 16
+hbits= 16
+wpixels= 16
+hpixels= 16
+numviews= 1
+system= 1
+
+[image131]
+name=voidexpl.pcx
+wbits= 128
+hbits= 128
+wpixels= 128
+hpixels= 128
+numindeathseq= 11
+deathseq= 0,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image132]
+name=skull.pcx
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 8
+imageseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image133]
+name=icechunk.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 5,6,7,8,9,10,11,0,1,2,3,4
+numviews= 1
+system= 1
+color_table= 8
+
+[image134]
+name=poof.pcx            ;Giant explosion sequence
+wbits= 128
+hbits= 128
+wpixels= 128
+hpixels= 128
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+color_table= 15
+
+[image135]
+name=stnfist.pcx
+wbits= 32
+hbits= 32
+wpixels= 128
+hpixels= 128
+numinseq= 1
+numviews= 8
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+
+
+[image136]
+name=stnfist.pcx
+wbits= 32
+hbits= 32
+wpixels= 128
+hpixels= 128
+numindeathseq= 1
+viewimage= 4,5,6,7,0,1,2,3
+numviews= 8
+system= 1
+
+[image137]
+name=stnfistv.pcx
+wbits= 32
+hbits= 32
+wpixels= 128
+hpixels= 128
+numindeathseq= 3
+deathseq= 0,1,2
+numviews= 5
+viewimage= 0,1,2,3,4,5,4,3,2,1
+mirror= 1
+system= 1
+
+[image138]
+name=smpebble.pcx
+wbits= 8
+hbits= 8
+wpixels= 32
+hpixels= 32
+numindeathseq= 5
+deathseq= 0,1,2,3,4
+numviews= 1
+system= 1
+
+[image139]
+name=pebble.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numinseq= 36
+numviews= 1
+imageseq= 0,2,4,1,3,4,1,2,4,3,4,1,2,2,3,4,4,3,2,1,0,3,0,1,4,3,2,4,1,0,2,3,1,2,4,4
+system= 1
+
+[image140]
+name=boulder.pcx     
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 5
+imageseq= 0,1,2,3,4
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+
+[image141]
+name=boulderx.pcx   
+wbits= 128
+hbits= 64
+wpixels= 128
+hpixels= 64
+numindeathseq= 8
+deathseq= 0,1,2,3,4,5,6,7
+numviews= 1
+system= 1
+
+[image142]
+name=twirl.pcx   ;twirly flying cloud
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 4
+imageseq= 0,1,2,3
+numviews= 1
+system= 1
+
+[image143]
+name=duststor.pcx
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+color_table= 9
+
+[image144]
+name=sedges.pcx
+wbits= 32
+hbits= 16
+wpixels= 128
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image145]
+name=sedgesx.pcx
+wbits= 64
+hbits= 32
+wpixels= 128
+hpixels= 64
+numindeathseq= 6
+deathseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image146]
+name=sharspik.pcx
+wbits= 8
+hbits= 8
+wpixels= 32
+hpixels= 32
+numinseq= 5
+imageseq= 0,1,2,3,4
+numviews= 1
+system= 1
+
+[image147]
+name=shrap.pcx
+wbits= 32
+hbits= 32
+wpixels= 128
+hpixels= 128
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image148]
+name=shrape.pcx
+wbits= 32
+hbits= 32
+wpixels= 128
+hpixels= 128
+numindeathseq= 4
+deathseq= 0,1,2,3
+numviews= 1
+system= 1
+
+[image149]
+name=stnboltx.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numindeathseq= 6
+deathseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image150]
+name=ertshl_r.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image151]
+name=eartharm.pcx
+wbits= 32
+hbits= 32
+wpixels= 32
+hpixels= 32
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image152]
+name=warhammr.pcx
+wbits= 32
+hbits= 32
+wpixels= 64
+hpixels= 64
+numinseq= 6
+imageseq= 0,1,2,3,4,5
+numviews= 5
+viewimage= 0,1,2,3,4,5,6,7
+system= 1
+mirror= 1
+
+[image153]
+name=hamrfade.pcx
+wbits= 32
+hbits= 16
+wpixels= 64
+hpixels= 32
+numindeathseq= 6
+deathseq= 0,1,2,3,4,5
+numviews= 1
+system= 1
+
+[image154]
+name=cshield.pcx  ;clerical shield overlay
+wbits= 64
+hbits= 64
+wpixels= 64
+hpixels= 64
+numinseq= 12
+imageseq= 0,1,2,3,4,5,6,7,8,9,10,11
+numviews= 1
+system= 1
+
+[image155]
+name=pebble.pcx
+wbits= 16
+hbits= 16
+wpixels= 64
+hpixels= 64
+numindeathseq= 5
+deathseq= 0,1,2,3,4
+numviews= 1
+system= 1
+

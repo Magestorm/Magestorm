@@ -1,0 +1,10 @@
+;Color File for Magestorm Town Arena
+[color_tables]
+16=tanpink.col
+17=water.col
+18=woodiron.col
+19=cathed.col
+20=town.col
+21=signsobj.col
+22=symbols.col
+23=system.col

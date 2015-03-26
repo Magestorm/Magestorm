@@ -1,0 +1,284 @@
+;
+;
+;    Triggers for THUNDER KEEP
+;
+;
+
+
+[triggerdefs]
+numtriggers= 16
+
+; ELEVATOR EXAMPLE
+[trigger01]
+type=elevator
+texture_off=10     ; Texture when trigger is OFF
+texture_on=20      ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=0       ; Height of floor when OFF
+on_height=300      ; Height of floor when ON
+x1=38              ; Upper left corner of elevator
+y1=45
+x2=39              ; Lower right corner of elevator
+y2=46
+speed=100          ; Speed of elevator in Height units per second
+move_ceiling=0     ; Move ceiling with floor?
+move_roof=0        ; Move rooftop with floor?
+off_sound=73
+on_sound=73
+
+; SWINGING DOOR EXAMPLE
+[trigger02]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=90        ; End Angle of door in Degrees
+max_angle_rate=-90  ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+
+; SLIDING DOOR EXAMPLE
+[trigger03]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=1        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+slide_amount=50     ; Amount to slide in units
+max_rate=50         ; Rate of slide in units/second
+
+; SLIDING UP DOOR EXAMPLE
+[trigger04]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=3        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+slide_amount=50     ; Amount to slide in units
+max_rate=50         ; Rate of slide in units/second
+
+; TELEPORTER EXAMPLE
+[trigger05]
+type=teleport
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+random=5            ; Random Teleporter -> Set to number of destinations
+team=0              ; Team Teleporter -> Destinations correspond to teams
+x0=55             ; Locations of Teleport Destinations
+y0=75             
+x1=74
+y1=75
+x2=64
+y2=48
+x3=72
+y3=52
+x4=57
+y4=52
+on_sound= 14
+
+
+[trigger06]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=270       ; End Angle of door in Degrees
+max_angle_rate=90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger07]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=270      ; Start angle of Door in Degrees
+end_angle=180         ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger08]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=270     ; Start angle of Door in Degrees
+end_angle=180       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger09]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=0    ; Start angle of Door in Degrees
+end_angle=270      ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger10]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=90       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger11]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=180     ; Start angle of Door in Degrees
+end_angle=90       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger12]
+type=door
+texture_off=0       ; Texture when Trigger is OFF
+texture_on=0        ; Texture when Trigger is ON
+reset_timer=6000    ; Time in msec to reset from ON to OFF automatically
+enabled=1           ; Trigger is Enabled
+initial_state=0     ; Initial state -> 0=OFF 1=ON
+next_trigger=0      ; Next trigger in chain
+slide_axis=0        ; 0=swing, 1=x-slide, 2=y-slide, 3=h-slide
+start_angle=0     ; Start angle of Door in Degrees
+end_angle=270       ; End Angle of door in Degrees
+max_angle_rate=-90   ; Rate of door swing in Degrees/second
+on_sound=69
+off_sound=70
+
+[trigger13]
+type=elevator
+texture_off=8     ; Texture when trigger is OFF
+texture_on=7     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=4      ; Height of floor when OFF
+on_height=225      ; Height of floor when ON
+x1=55              ; Upper left corner of elevator
+y1=52
+x2=56              ; Lower right corner of elevator
+y2=53
+speed=75          ; Speed of elevator in Height units per second
+move_ceiling=0     ; Move ceiling with floor?
+move_roof=0        ; Move rooftop with floor?
+off_sound=73
+on_sound=73
+
+
+[trigger14]
+type=elevator
+texture_off=8     ; Texture when trigger is OFF
+texture_on=7     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=4      ; Height of floor when OFF
+on_height=225      ; Height of floor when ON
+x1=73              ; Upper left corner of elevator
+y1=52
+x2=74              ; Lower right corner of elevator
+y2=53
+speed=75          ; Speed of elevator in Height units per second
+move_ceiling=0     ; Move ceiling with floor?
+move_roof=0        ; Move rooftop with floor?
+off_sound=73
+on_sound=73
+
+[trigger15]
+type=elevator
+texture_off=8     ; Texture when trigger is OFF
+texture_on=7     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=4      ; Height of floor when OFF
+on_height=225      ; Height of floor when ON
+x1=55              ; Upper left corner of elevator
+y1=79
+x2=56              ; Lower right corner of elevator
+y2=80
+speed=75          ; Speed of elevator in Height units per second
+move_ceiling=0     ; Move ceiling with floor?
+move_roof=0        ; Move rooftop with floor?
+off_sound=73
+on_sound=73
+
+[trigger16]
+type=elevator
+texture_off=8     ; Texture when trigger is OFF
+texture_on=7     ; Texture when trigger is ON
+reset_timer=6000   ; Time in msec to reset from ON to OFF automatically
+enabled=1          ; Trigger is Enabled
+initial_state=0    ; Initial state -> 0=OFF 1=ON
+next_trigger=0     ; Next trigger in chain
+off_height=4      ; Height of floor when OFF
+on_height=225      ; Height of floor when ON
+x1=73              ; Upper left corner of elevator
+y1=79
+x2=74              ; Lower right corner of elevator
+y2=80
+speed=75          ; Speed of elevator in Height units per second
+move_ceiling=0     ; Move ceiling with floor?
+move_roof=0        ; Move rooftop with floor?
+off_sound=73
+on_sound=73
+
