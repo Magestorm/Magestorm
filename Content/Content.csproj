@@ -671,7 +671,6 @@
     <Content Include="Grids\Grid07\Light\Tanpink.col" />
     <Content Include="Grids\Grid07\Light\Town.col" />
     <Content Include="Grids\Grid07\Light\Woodiron.col" />
-    <Content Include="Grids\Grid07\Main.dat" />
     <Content Include="Grids\Grid07\Misc.dat" />
     <Content Include="Grids\Grid07\Objects.dat" />
     <Content Include="Grids\Grid07\Preview.dat" />
